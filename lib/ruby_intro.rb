@@ -39,7 +39,7 @@ end
 
 def starts_with_consonant? s
   return false if s.empty?
-  return false if s =~ /^[a,e,i,o,u]/i
+  return false if s =~ /^[aeiou]/i
   return false if s !~ /^[a-z]/i
   true
 end
